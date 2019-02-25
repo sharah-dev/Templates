@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	 <link rel="stylesheet" href="css/custom.css"/>
+    <title>Table</title>
+  </head>
+  <body>
+  <header>
+     <div class="row" style="background:blue">
+	 <div class="col-sm-6">
+	     <p style="color:white;font-size:16px;margin-left:5px">Manage Parents</p>
+	 </div>
+	 <div class="col-sm-6">
+	 <p class="float-right"><button style="background:orange;color:white;margin-top:2px;margin-right:5px">Add parent</button></p>
+	 </div>
+	 </div>
+  </header>
+	 <div class="row">
+	     <div class="col-sm-6">
+		     <input type="text" placeholder="search" style="margin-left:40px;margin-top:30px"><button style="background:green;color:white">Search</button>
+		 </div>
+	     <div class="col-sm-6" >
+		     <button class="float-right" style="margin-top:30px;color:white;background:orange">Download CSV</button>
+			 <button class="float-right"  style="margin-top:30px;color:white;background:orange">Import CSV</button>
+			 <button class="float-right"  style="margin-top:30px;color:white;background:red">Delete</button>
+			 <button class="float-right"  style="margin-top:30px;color:white;background:orange">InActive</button>
+			 <button class="float-right"  style="margin-top:30px;color:white;background:green">Active</button>
+			 <button class="float-right" style="margin-top:30px;color:white;background:darkblue">Refresh</button>
+		 </div>
+	 </div>
+  <section style="margin-top:35px">
+     <table class="table table-bordered table-striped" >
+  <thead class="thead-light">
+    <tr>
+	  <th scope="col"><input type="checkbox"/></th>
+      <th scope="col">S.no</th>
+      <th scope="col">Parents Name</th>
+      <th scope="col">Parents Email</th>
+      <th scope="col">Parents Relation</th>
+	  <th scope="col">Parents Phone</th>
+	  <th scope="col">Parents Address</th>
+	  <th scope="col">Parents Status</th>
+	  <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Mark@gmail.com</td>
+      <td>Father</td>
+	  <td>123456789</td>
+	  <td>hnk</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td>
+    </tr>
+    <tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Jacob@gmail.com</td>
+      <td>Father</td>
+	  <td>789456123</td>
+	  <td>wgl</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td>
+    </tr>
+    <tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td >3</td>
+      <td >Larry</td>
+      <td>larry@gmail.com</td>
+	  <td>Mother</td>
+	  <td>456789123</td>
+	  <td>Teachers colony</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td>
+    </tr>
+	<tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td>4</td>
+      <td>Sri</td>
+      <td>sri@gmail.com</td>
+	  <td>mother</td>
+	  <td>425689713</td>
+	  <td>Bollikunta</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td>
+    </tr>
+	<tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td>5</td>
+      <td>sravan</td>
+      <td>sravan@gmail.com</td>
+	  <td>Father</td>
+	  <td>159786423</td>
+      <td>Subedari</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td>
+    </tr>
+	<tr>
+	  <th scope="row"><input type="checkbox"/></th>
+      <td>6</td>
+      <td >Ram</td>
+      <td>ram@gmail.com</td>
+	  <td>father</td>
+	  <td>123789456</td>
+	  <td>Reddy colony</td>
+	  <td><button class="bg-success" style="color:white">Active</button></td>
+	  <td><img src="images/edit.jpg" style="height:20px;width:20px" title="edit"></td> 
+    </tr>
+  </tbody>
+</table>
+  </section>
+  </body>
+</html>

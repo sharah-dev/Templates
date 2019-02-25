@@ -1,0 +1,111 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+#wrapper
+{
+	background-color:#3B5998;
+	height:80px;
+}	
+#wrapper h1
+{
+	color:white;
+	margin-left:80px;
+	font-weight:bold;
+	margin-bottom:-30px;
+}
+#header
+{
+	margin-left:725px;
+}
+#header p
+{
+	color:white;
+	font-size:15px;
+}
+#input
+{
+	margin:5px;
+	
+}
+#header a
+{
+	text-decoration:none;
+	color:#73ABD8;
+}
+#body
+{
+	margin-left:0px;
+	margin-top:-10px;
+    background-color:#DFE3EE;
+    width:1370px;
+    height:550px;	
+}
+#left
+{
+	margin-left:150px;
+	width:400px;
+	
+}
+#right
+{
+	margin-left:750px;
+	margin-top:-230px;
+}
+#name
+{
+	margin-top:10px;
+	margin-left:5px;
+	width:180px;
+	height:30px;
+	font-size:15px;
+}
+#mbl
+{
+	margin-top:10px;
+	width:380px;
+	height:30px;
+	font-size:15px;
+}
+#pass
+{
+    margin-top:10px;
+	width:380px;
+	height:30px;
+	font-size:15px;
+}
+#right p
+{
+	margin-top:10px;
+}
+
+	
+#dropdown
+{
+	margin-top:3px;
+	width:70px;
+	height:30px;
+}
+#radio
+{
+	margin-top:15px;
+	
+}
+#signup
+{
+    margin-top:15px;
+	background-color:#68A254;
+	font-weight:bold;
+	width:150px;
+	height:30px;
+	font-size:18px;
+	color:white;
+}
+#footer #lang
+{
+	float:left;
+	font-size:12px;
+	text-decoration:none;
+	padding-left:70px;
+	margin-left:20px;
+}
